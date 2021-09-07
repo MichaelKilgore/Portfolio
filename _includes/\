@@ -1,0 +1,118 @@
+<section class="tout" id="interests">
+    <div class="container">
+      <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Interests</h2>
+                <hr />
+            </div>
+        </div>
+            <div class="row">
+		    <p>
+			    My personal interests include:
+        	</p>
+			<ul>
+			  <li>
+				 <b>Blockchain Development</b>. It's an exciting time for Blockchain development. I'm working through online tutorials, and plan on using some form of blockchain use for my capstone.
+			  </li>
+			  <li>
+				  <b>Soccer</b>. I grew up playing soccer as a kid, and watching the Seattle Sounders play. I still enjoy playing soccer in recreational leagues, and watching the Sounders play on weekends.
+			  </li>
+			  <li>
+				  <b>Rocket League</b>. Rocket League has been my favorite video game for over 3 years now. During the school year when I do get some free time on my hands, playing Rocket League has always been a great way to destress.
+      </li>
+			</ul>
+			</div>
+	</div>
+</section>
+
+<section id="recent-projects">
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2>Recent Projects</h2>
+			<hr />
+		</div>
+	</div>
+
+
+    <div class="row">
+		<h3 style="margin-top:0">Shopping List App</h3>
+			<h5>non-technical description</h5>
+				<p>
+					This application is an app for IOS devices that allows users to create lists and invite other users to lists. All users added to a certain list can create and delete items. The creater of lists can add and remove users from lists. The purpose of this appication is to allow for a convenient user friendly way for people that live together to coordinate on things that everyone needs from the store. A use case would be if there are 10 items on a list, and one person goes to the store, they can easily get all of those items from the store using this app.
+				</p>
+			<h5>technical elaboration</h5>
+				<p>
+					This application uses NodeJS for the server handling communication between different users. The server is run on AWS. All data such as user information, and lists information is stored using MongoDB on AWS. Front end is built using SwiftUI, and communication between Apple devices and the NodeJS server is handled using PushKit which allows for convenient quick real time communication and update of list changes.
+				</p>
+			<h5>Highlights</h5>	
+				<ul>
+					<li>
+						2-step email authentication is used to for added protection of user information.
+					</li>
+					<li>
+						The front-end is built with the latest and greatest SwiftUI which now is built with an MVVM software architectural pattern, much better than the MVC model that IOS apps where previously built with.
+					</li>
+					<li>
+						The server is built on NodeJS which will allow me to make the application support cross-platform communication in the future.
+					</li>
+				</ul>
+			<h5><a href="url">Link To Repo</a><h5>
+			<h5><a href="url">Link To App download</a><h5>
+
+			<h3 style="margin-top:0">The Wardrobe App</h3>
+			<hr>
+				<h5>non-technical description</h5>
+				<p>
+					This application is an app for IOS devices that allows users to virtually store their wardrobe. The way it works is you take pictures of all the articles of clothing you own, and assign filters to them. This application allows users to easily pick out an outfit for the day from the phone, as well as save outfits. 
+				</p>
+				<h5>technical elaboration</h5>
+				<p>
+					The applications is built with SwiftUI and stores all the images of clothing and information related to clothing using Core Data. Core Data is a framework for storing data used in IOS applications.
+				</p>
+				<h5>Highlights</h5>
+				<ul>
+					<li>	
+						Use of CoreData.	
+					</li>
+					<li>
+						Incorporates use of camera.
+					</li>
+				</ul>
+				<h5><a href="url">Link To Repo</a></h5>
+				<h5><a href="url">Link To App download</a><h5>
+			
+			<h3 style="margin-top:0">Poker Assistant App</h3>
+				<h5>non-technical description</h5>
+				<p>
+					This application is an app for IOS devices that helps users assess their odds of winning a round of Poker. The app allows the user to enter what their cards are and returns the percent odds of the user winning that round.
+				</p>
+				<h5>technical elaboration</h5>
+				<p>
+					This application uses SwiftUI, and the percent odds of victory were precomputed using Monte Carlo Simulations. Monte Carlo Simulation uses repeated random sampling to obtain numerical results. In this case we randomly selected to 5 card hands and added up all the times a certain type of hand won vs lost. Run this simulation 10,000,000 times and you get very accurate odds of winning with certain hands.
+				</p>
+				<h5>Highlights</h5>
+				<h5><a href="url">Link to Repo</a></h5>
+				<h5><a href="url">Link To App download</a><h5>
+
+			<h3 style="margin-top:0">Better Alarm Clock App</h3>
+				<h5>non-technical description</h5>
+				<p>
+					This application was specifically made to be a better version of the basic alarm clock app that all ios devices come with installed on their device. My alarm clock has custom snooze times, where as the normal alarm clock has to have 9 minute snooze times. My alarm also allows for the user to adjust the snooze time as the alarm goes off, where as the normal alarm clock app does not. Finally my alarm app also sorts the alarms so that the alarms that are on are sorted to the top of the list of alarms.
+				</p>
+				<h5>technical elaboration</h5>
+				<p>
+					My version of the normal alarm clock is definitively better and I made this app as kind of a proof of concept. The only reason people will always use Apples default alarm clock is that their is a certain feature that apple does not let 3rd party app developers use. Apple does not allow 3rd party developers to activate the alarm if the app is not open. I made this app as a way to display clearly one of the many faults of Apple..
+				</p>
+				<h5>Highlights</h5>
+				<ul>
+					<li>
+						Addresses a business problem. Apple wants to have a lot of control over how much power 3rd party apps are able to take up, but this restricts the amount of inovation. If 3rd party app developers are not able to improve Apples applications then this debatably reduces the quality of buying an Iphone for someone. I think Apple should give their developers more freedom to innovate.
+					</li>
+				</ul>
+				<h5><a href="url">Link to Repo</a></h5>
+				<h5><a href="url">Link To App download</a><h5>
+      </div>
+    </div>
+  </div>
+</section>
